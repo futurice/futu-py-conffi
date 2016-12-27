@@ -1,19 +1,14 @@
-#  futu-pyconffi
+#  FUTU-PY-CONFFI DEVOPS GUIDE
+
+
+     
+
+## 1. INSTALLATION AND DEPLOYMENT
 
 
     
 
-## 1. What is it ?!
-A python based tool for easier configuration management handling
-
-    
-
-## 2. INSTALLATION AND CONFIGURATION
-
-
-    
-
-### 2.1. Prerequisites
+### 1.1. Prerequisites
 The must have binaries are:
  bash, perl, zip, python3
 
@@ -36,7 +31,7 @@ The examples are for Ubuntu - use you OS package manager …
     python -V
     # Python 2.7.12
 
-### 2.2. Fetch the source
+### 1.2. Fetch the source
 Fetch the source from git hub as follows:
 
     # create your product dir:
@@ -46,7 +41,7 @@ Fetch the source from git hub as follows:
     
     mv -v /opt/futu/futu-py-conffi /opt/futu/futu-py-conffi.0.1.0.dev.$USER
 
-### 2.3. Create you local conf file
+### 1.3. Create you local conf file
 The default conf file provides only limited functionality ( this is by design ) , thus copy and configure the configuration file for your host
 
     # go to the product version dir
@@ -54,11 +49,22 @@ The default conf file provides only limited functionality ( this is by design ) 
     
     mv -v sfw/bash/futu-pyconffi/futu-pyconffi.set-your-host.conf sfw/bash/futu-pyconffi/futu-pyconffi.`hostname -s`.conf
 
-### 2.4. run the tests
+### 1.4. run the tests
 To run all the tests issue the following call
 
     # go to the product version dir
     cd /opt/futu/futu-py-conffi.0.1.0.dev.$USER
     
     bash sfw/bash/futu-py-conffi/test-futu-py-conffi.sh
+
+## 2. CONFIGURATION
+
+
+    
+
+### 2.1. Configure logging
+To configure the logging edit the logging.conf file by consulting the following documentation:
+https://docs.python.org/3.5/howto/logging.html#logging-basic-tutorial
+
+    
 
