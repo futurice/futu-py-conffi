@@ -11,9 +11,10 @@ doRunPython(){
 	cat docs/txt/futu-py-conffi/funcs/run-python.func.txt
 	
 	test -z "$sleep_interval" || sleep "$sleep_interval"
-	# add your action implementation code here ... 
-	# Action !!!
 
+	# Action !!! with all warnings 
+	python3 -W all sfw/python/futu_py_conffi.py
+	
 	doLog "DEBUG STOP  doRunPython"
 }
 # eof func doRunPython

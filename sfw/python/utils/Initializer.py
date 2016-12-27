@@ -18,7 +18,7 @@ def doResolveProductInstanceDir():
 
     abs_path = os.path.abspath( inspect.stack()[0][1] )
     path_list = abs_path.split(os.sep)
-    del path_list[-3:]
+    del path_list[-4:]
     ProductInstDir = ''
   
 
