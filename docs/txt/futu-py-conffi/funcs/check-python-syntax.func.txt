@@ -1,0 +1,37 @@
+# docs/txt/futu-py-conffi/check-python-syntax/check-python-syntax.func.txt
+
+	doCheckPythonSyntax
+	
+	# Purpose:
+	# ------------------------------------------------------
+	-- todo: what is the purpose of the doCheckPythonSyntax function
+
+	# Prequisites
+	# ------------------------------------------------------
+	-- todo: what are the prerequisites of the doCheckPythonSyntax function
+
+	# Installation
+	# ------------------------------------------------------
+	-- todo: what are the required installations for the  
+		doCheckPythonSyntax function to execute without errors
+
+	# Interdependancies
+	# ------------------------------------------------------
+	-- todo: what are the interdependancies for the  
+		doCheckPythonSyntax function to execute without errors
+
+	# Usage:
+	# ------------------------------------------------------
+	-- todo: how can be the doCheckPythonSyntax used 
+
+	# Developent
+	# ------------------------------------------------------
+	-- todo: what issues, todos could be pointed for development
+
+	# Caveats:
+	# ------------------------------------------------------
+	-- todo: what are the known caveats of the doCheckPythonSyntax functions
+
+
+
+# eof file: docs/txt/futu-py-conffi/check-python-syntax/check-python-syntax.func.txt

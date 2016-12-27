@@ -1,0 +1,28 @@
+# docs/txt/futu-py-conffi/check-python-syntax/check-python-syntax.test.txt
+
+	doTestCheckPythonSyntax
+	
+	# Purpose:
+	# ------------------------------------------------------
+	to test the check-python-syntax func
+
+	# Prequisites
+	# ------------------------------------------------------
+	python3 , bash
+
+	# Usage:
+	# ------------------------------------------------------
+	echo check-python-syntax >> sfw/bash/futu-py-conffi/tests/run-futu-py-conffi-tests.lst
+	bash sfw/bash/futu-py-conffi/test-futu-py-conffi.sh	
+
+	# Developent
+	# ------------------------------------------------------
+	why the call syntax call does not output anything 
+
+	# Caveats:
+	# ------------------------------------------------------
+	-- todo: what are the known caveats of the doTestCheckPythonSyntax functions
+
+
+
+# eof file: docs/txt/futu-py-conffi/check-python-syntax/check-python-syntax.test.txt

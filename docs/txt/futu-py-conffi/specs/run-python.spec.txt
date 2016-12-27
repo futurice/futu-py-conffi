@@ -1,0 +1,35 @@
+# docs/txt/futu-py-conffi/run-python/run-python.spec.txt
+
+	doSpecRunPython
+	
+	# Purpose:
+	# ------------------------------------------------------
+	should run the main starting python script of the tool
+
+	# Prequisites
+	# ------------------------------------------------------
+	python3 , bash , perl installed
+
+	# Installation
+	# ------------------------------------------------------
+	python3 , bash , perl installed
+
+	# Interdependancies
+	# ------------------------------------------------------
+	python3 , bash , perl installed
+
+	# Usage:
+	# ------------------------------------------------------
+	bash sfw/bash/futu-py-conffi/futu-py-conffi.sh -a run-python	
+
+	# Developent
+	# ------------------------------------------------------
+	-- todo: what issues, todos could be pointed for development
+
+	# Caveats:
+	# ------------------------------------------------------
+	-- todo: what are the known caveats of the doSpecRunPython functions
+
+
+
+# eof file: docs/txt/futu-py-conffi/run-python/run-python.spec.txt

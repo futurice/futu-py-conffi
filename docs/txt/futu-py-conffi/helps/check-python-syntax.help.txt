@@ -1,0 +1,39 @@
+# docs/txt/futu-py-conffi/check-python-syntax/check-python-syntax.help.txt
+
+	doHelpCheckPythonSyntax
+	
+	# Purpose:
+	# ------------------------------------------------------
+	check the python syntax for all the pythong code files 
+	bellow the sfw/python dir
+
+	# Prequisites
+	# ------------------------------------------------------
+	python3 installed , bash
+
+	# Installation
+	# ------------------------------------------------------
+	no special istallations and configuration besides the futu-py-conffi	
+	deplooyment
+
+
+	# Interdependancies
+	# ------------------------------------------------------
+	python3 , bash 
+
+	# Usage:
+	# ------------------------------------------------------
+	bash sfw/bash/futu-py-conffi/futu-py-conffi.sh -a check-python-syntax
+	
+
+	# Developent
+	# ------------------------------------------------------
+	why the -m python3 -m py_compile $f call does not work ?!
+
+	# Caveats:
+	# ------------------------------------------------------
+	have to cd to the <<product_version_dir>>/sfw/python dir
+
+
+
+# eof file: docs/txt/futu-py-conffi/check-python-syntax/check-python-syntax.help.txt

@@ -1,0 +1,38 @@
+# docs/txt/futu-py-conffi/run-python/run-python.test.txt
+
+	doTestRunPython
+	
+	# Purpose:
+	# ------------------------------------------------------
+	to test run the main entry point of the tool:
+	
+
+	# Prequisites
+	# ------------------------------------------------------
+	python3, bash , perl
+
+	# Installation
+	# ------------------------------------------------------
+	nothing special besides the prerequisites 
+
+
+	# Interdependancies
+	# ------------------------------------------------------
+	nothing special besides the prerequisites 
+
+	# Usage:
+	# ------------------------------------------------------
+	add the run-python action in the sfw/bash/futu-py-conffi/tests/run-futu-py-conffi-tests.lst
+	acctions tests list file
+	bash sfw/bash/futu-py-conffi/test-futu-py-conffi.sh
+
+	# Developent
+	# ------------------------------------------------------
+
+	# Caveats:
+	# ------------------------------------------------------
+	-- todo: what are the known caveats of the doTestRunPython functions
+
+
+
+# eof file: docs/txt/futu-py-conffi/run-python/run-python.test.txt
