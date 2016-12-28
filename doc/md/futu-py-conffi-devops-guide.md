@@ -78,7 +78,7 @@ The default conf file provides only limited functionality ( this is by design ) 
     # go to the product version dir
     cd /opt/futu/futu-py-conffi.0.1.0.dev.$USER
     
-    mv -v sfw/bash/futu-pyconffi/futu-pyconffi.set-your-host.conf sfw/bash/futu-pyconffi/futu-pyconffi.`hostname -s`.conf
+    mv -v sfw/bash/futu-pyconffi/futu-pyconffi.set-your-host.conf \ sfw/bash/futu-pyconffi/futu-pyconffi.`hostname -s`.conf
 
 ### 1.4. run the tests
 To run all the tests issue the following call
