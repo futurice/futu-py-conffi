@@ -19,17 +19,48 @@ The examples are for Ubuntu - use you OS package manager …
 
     apt-get autoclean
     apt-get install --only-upgrade bash
-    
-    sudo apt-get install -y perl,python
+    sudo apt-get install -y perl
     
     # optionally 
     sudo apt-get install -y excuberant-ctags
     sudo apt-get install -y 7z
     
     apt-get upgrade
+
+#### 1.1.1. Install python
+Install the python3 binary as follows:
+
+    sudo apt-get install python3
     
-    python -V
-    # Python 2.7.12
+    # and verify
+    python3 -V
+    Python 3.5.2
+
+#### 1.1.2. Install pip
+Install the python package manager:
+The example is for Ubuntu - use the package manager of your OS by choice. 
+
+    sudo apt-get install python-pip
+    pip install --upgrade pip
+    
+
+#### 1.1.3. Install the Google oauth2client
+Install the Google oauth2client ( https://github.com/google/oauth2client ) as follows:
+
+    pip install --upgrade oauth2client
+
+#### 1.1.4. Install the gspread
+The Google Spreadsheets Python API is utilized and it must be imported via the pip manager. 
+Use the gspread module
+https://github.com/burnash/gspread
+
+    sudo pip install gspread
+    
+    # output:
+      Downloading requests-2.12.4-py2.py3-none-any.whl (576kB)
+        100% |████████████████████████████████| 583kB 1.7MB/s
+    Installing collected packages: requests, gspread
+    Successfully installed gspread-0.6.2 requests-2.12.4
 
 ### 1.2. Fetch the source
 Fetch the source from git hub as follows:
@@ -65,6 +96,13 @@ To run all the tests issue the following call
 ### 2.1. Configure logging
 To configure the logging edit the logging.conf file by consulting the following documentation:
 https://docs.python.org/3.5/howto/logging.html#logging-basic-tutorial
+
+    
+
+### 2.2. Configure the credentials for the oAuth2Client
+Using the :
+http://gspread.readthedocs.io/en/latest/oauth2.html
+https://github.com/burnash/gspread
 
     
 

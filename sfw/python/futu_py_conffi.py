@@ -12,6 +12,7 @@ import logging.config
 import time
 from pprint import pprint
 
+
 # this is the main entry point of the tool
 def main():
     
