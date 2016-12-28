@@ -10,6 +10,11 @@ sfw/python/utils/__init__.py
 conf/futu-py-conffi.yaml
 conf/logging.conf
 doc/md/futu-py-conffi-devops-guide.md
+doc/md/futu-py-conffi-devops-guide.md
+doc/pdf
+doc/pdf/README.pdf
+doc/pdf/futu-py-conffi-devops-guide.pdf
+doc/pdf/futu-py-conffi-issues.pdf
 doc/img/futu-pyconffi-arch.jpg
 sfw/bash/futu-py-conffi/tests/run-futu-py-conffi-tests.lst
 sfw/bash/futu-py-conffi/test-futu-py-conffi.sh
