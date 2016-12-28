@@ -1,9 +1,16 @@
 # perl_ignore_file_pattern=.*\.swp$|.*\.log|$.*\.swo$
 sfw/python
 sfw/python/futu_py_conffi.py
+sfw/python/ctrl/GoogleSheetToYAML.py
+sfw/python/ctrl/__init__.py
 sfw/python/utils/Initializer.py
+sfw/python/utils/Configurator.py
+sfw/python/ctrl
 sfw/python/utils/__init__.py
 conf/futu-py-conffi.yaml
+conf/logging.conf
+doc/md/futu-py-conffi-devops-guide.md
+doc/img/futu-pyconffi-arch.jpg
 sfw/bash/futu-py-conffi/tests/run-futu-py-conffi-tests.lst
 sfw/bash/futu-py-conffi/test-futu-py-conffi.sh
 1
@@ -28,6 +35,7 @@ sfw/bash/futu-py-conffi/funcs/check-python-syntax.func.sh
 sfw/bash/futu-py-conffi/tests/check-python-syntax.test.sh
 1
 README.md
+doc/md
 .gitignore
 sfw/bash/futu-py-conffi/tests/rem-futu-py-conffi-actions.lst
 sfw/bash/futu-py-conffi/tests/all-futu-py-conffi-tests.lst
@@ -64,16 +72,16 @@ sfw/bash/futu-py-conffi/specs/gmail-package.spec.sh
 sfw/bash/futu-py-conffi/specs/pckg/gmail-package.spec.sh
 sfw/bash/futu-py-conffi/tests/gmail-package.test.sh
 1
-docs/txt/futu-py-conffi/funcs/remove-package.func.txt
-docs/txt/futu-py-conffi/helps/pckg/remove-package.help.txt
-docs/txt/futu-py-conffi/specs/pckg/remove-package.spec.txt
 docs/txt/futu-py-conffi/specs/remove-package.spec.txt
 docs/txt/futu-py-conffi/tests/remove-package.test.txt
-sfw/bash/futu-py-conffi/funcs/pckg/remove-package.func.sh
+docs/txt/futu-py-conffi/funcs/remove-package.func.txt
 sfw/bash/futu-py-conffi/funcs/remove-package.func.sh
 sfw/bash/futu-py-conffi/helps/remove-package.help.sh
-sfw/bash/futu-py-conffi/specs/pckg/remove-package.spec.sh
 sfw/bash/futu-py-conffi/specs/remove-package.spec.sh
+docs/txt/futu-py-conffi/helps/pckg/remove-package.help.txt
+docs/txt/futu-py-conffi/specs/pckg/remove-package.spec.txt
+sfw/bash/futu-py-conffi/specs/pckg/remove-package.spec.sh
+sfw/bash/futu-py-conffi/funcs/pckg/remove-package.func.sh
 sfw/bash/futu-py-conffi/tests/pckg/remove-package.test.sh
 sfw/bash/futu-py-conffi/tests/remove-package.test.sh
 1

@@ -93,16 +93,47 @@ To run all the tests issue the following call
 
     
 
-### 2.1. Configure logging
+## 3. INTERNALS
+
+
+    
+
+### 3.1. Configure logging
 To configure the logging edit the logging.conf file by consulting the following documentation:
 https://docs.python.org/3.5/howto/logging.html#logging-basic-tutorial
 
     
 
-### 2.2. Configure the credentials for the oAuth2Client
+### 3.2. Python objects listing
+The following section provides short explanation on the python objects
+
+    
+
+### 3.3. Configure the credentials for the oAuth2Client
 Using the :
 http://gspread.readthedocs.io/en/latest/oauth2.html
 https://github.com/burnash/gspread
+
+    
+
+### 3.4. sfw/python/futu_py_conffi.py
+This is the main entry of the python code … 
+Kicks up the confgurator and the GoogleSheetToYAML controller obj
+
+    
+
+### 3.5. sfw/python/ctrl/GoogleSheetToYAML.py
+Implements the control flow for reading the Google SpreadSheet data , data transfromations and writing to yaml configuration files
+
+    
+
+### 3.6. sfw/python/utils/Initializer.py
+A "self-reflecting" module to fetch generically from the project dirs , configuration files etc. 
+
+    
+
+### 3.7. sfw/python/utils/Configurator.py
+Responsible for the gloal configuration of the tool. 
 
     
 
