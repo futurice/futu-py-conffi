@@ -1,9 +1,20 @@
 import inspect
 import os
+import sys
 
-# todo: pacckages
+
+#
+# get the product name from the called main script
+def doResolveProductName():
+
+    product_name = os.path.splitext(os.path.basename(sys.argv[0]))[0]
+    return product_name
+
+#eof def doResolveProductName
+
+
+#
 # src: https://python4astronomers.github.io/installation/packages.html
-# 
 def doResolveScriptFile():
 
     return os.path.abspath( inspect.stack()[0][1] )
@@ -29,11 +40,12 @@ def doResolveProductInstanceDir():
 #eof doResolveScriptDir
 
 
+#
+# resolve the yaml config file of the tool ... 
 def doResolveTheConfigFile():
 
     ProductInstDir = doResolveProductInstanceDir()
     # todo: parametrize the futu-py-conffi
     ConfigFile = ProductInstDir + os.sep + 'conf' + os.sep + 'futu-py-conffi.yaml'
     return ConfigFile
-
 #eof def doResolveTheConfigFile

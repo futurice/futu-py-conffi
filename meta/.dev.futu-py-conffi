@@ -1,10 +1,15 @@
 # perl_ignore_file_pattern=.*\.swp$|.*\.log|$.*\.swo$
 sfw/python
 sfw/python/futu_py_conffi.py
+sfw/python/ctrl/GoogleSheetToYAML.py
+sfw/python/ctrl/__init__.py
 sfw/python/utils/Initializer.py
+sfw/python/utils/Configurator.py
+sfw/python/ctrl
 sfw/python/utils/__init__.py
 conf/futu-py-conffi.yaml
 conf/logging.conf
+doc/md/futu-py-conffi-devops-guide.md
 sfw/bash/futu-py-conffi/tests/run-futu-py-conffi-tests.lst
 sfw/bash/futu-py-conffi/test-futu-py-conffi.sh
 1
@@ -29,6 +34,7 @@ sfw/bash/futu-py-conffi/funcs/check-python-syntax.func.sh
 sfw/bash/futu-py-conffi/tests/check-python-syntax.test.sh
 1
 README.md
+doc/md
 .gitignore
 sfw/bash/futu-py-conffi/tests/rem-futu-py-conffi-actions.lst
 sfw/bash/futu-py-conffi/tests/all-futu-py-conffi-tests.lst
