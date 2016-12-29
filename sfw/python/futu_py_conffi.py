@@ -3,7 +3,7 @@
 import utils.CmdArgsParser
 import  utils.Initializer 
 from utils.Configurator import Configurator
-from ctrl.GoogleSheetToYAML import GoogleSheetToYAML
+from ctrl.GoogleSheetToCSV import GoogleSheetToCSV
 import sys    
 import os    
 import logging
@@ -34,8 +34,8 @@ def main():
     worksheet = args[ 'worksheet' ]
     
     
-    objGoogleSheetToYAML = GoogleSheetToYAML()
-    ret = objGoogleSheetToYAML.main( objConfigurator , url , worksheet )
+    objGoogleSheetToCSV = GoogleSheetToCSV()
+    ret = objGoogleSheetToCSV.main( objConfigurator , url , worksheet )
 
 
     objLogger.info ( "STOP  ::: " + product_name )

@@ -1,15 +1,16 @@
-import utils.Initializer
-from utils.Configurator import Configurator
-from .io.GoogleSheetReader import GoogleSheetReader
 import logging 
 import sys    
 import os    
 import logging
 import logging.config
+import utils.Initializer
+from .io.GoogleSheetReader import GoogleSheetReader
+from .io.CsvWriter import CsvWriter
+from utils.Configurator import Configurator
 
 # this is the controller class responsible for the control flow of reading 
 # the Google Spread Sheet , mangling the result set and writing the conf files
-class GoogleSheetToYAML:
+class GoogleSheetToCSV:
 
     def main( self , objConfigurator , url , worksheet ):
 
@@ -34,9 +35,13 @@ class GoogleSheetToYAML:
 
         objGoogleSheetReader = GoogleSheetReader()
         list_of_lists = objGoogleSheetReader.doRead( objConfigurator , url , worksheet )
+        
+        # data mangling here ?!
+        # eval-1
 
-        print ( list_of_lists )
-        time.sleep ( 3 )
+        objCsvWriter = CsvWriter()
+        list_of_lists = objCsvWriter.doWrite ( objConfigurator , list_of_lists , worksheet )
+
 
         return 0    
     #eof main
