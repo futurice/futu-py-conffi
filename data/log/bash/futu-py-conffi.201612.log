@@ -1,0 +1,16 @@
+ [INFO ] 2016.12.28-18:00:03 [futu-py-conffi][@doc-pub-host] [29811] # -------------------------------------- 
+ [INFO ] 2016.12.28-18:00:03 [futu-py-conffi][@doc-pub-host] [29811] # ----------------------- 
+ [INFO ] 2016.12.28-18:00:03 [futu-py-conffi][@doc-pub-host] [29811] # === START MAIN === futu-py-conffi 
+ [INFO ] 2016.12.28-18:00:03 [futu-py-conffi][@doc-pub-host] [29811] # ----------------------- 
+ [INFO ] 2016.12.28-18:00:03 [futu-py-conffi][@doc-pub-host] [29811] # -------------------------------------- 
+ [INFO ] 2016.12.28-18:00:03 [futu-py-conffi][@doc-pub-host] [29811] using the following vars: 
+ [INFO ] 2016.12.28-18:00:03 [futu-py-conffi][@doc-pub-host] [29811] running action :: create-relative-package:doCreateRelativePackage 
+ [INFO ] 2016.12.28-18:00:04 [futu-py-conffi][@doc-pub-host] [29811] created the following relative package: 
+ [INFO ] 2016.12.28-18:00:04 [futu-py-conffi][@doc-pub-host] [29811] 2016-12-28 18:00:03.999447335 +0200 futu-py-conffi.0.1.3.git.20161228_180003.doc-pub-host.rel.zip 
+ [INFO ] 2016.12.28-18:00:04 [futu-py-conffi][@doc-pub-host] [29811] with the following local backup : 
+ [INFO ] 2016.12.28-18:00:04 [futu-py-conffi][@doc-pub-host] [29811] 2016-12-28 18:00:04.031447335 +0200 /opt/futu/futu-py-conffi/data/zip/futu-py-conffi.0.1.3.git.20161228_180003.doc-pub-host.rel.zip 
+ [INFO ] 2016.12.28-18:00:04 [futu-py-conffi][@doc-pub-host] [29811] in the network dir @:: 
+ [INFO ] 2016.12.28-18:00:04 [futu-py-conffi][@doc-pub-host] [29811] :: /vagrant/futu/futu-py-conffi/data/zip 
+ [INFO ] 2016.12.28-18:00:04 [futu-py-conffi][@doc-pub-host] [29811] with the following network backup : 
+ [INFO ] 2016.12.28-18:00:04 [futu-py-conffi][@doc-pub-host] [29811] 2016-12-28 18:00:04.110835900 +0200 /vagrant/futu/futu-py-conffi/data/zip/futu-py-conffi.0.1.3.git.20161228_180003.doc-pub-host.rel.zip 
+ [INFO ] 2016.12.28-18:00:04 [futu-py-conffi][@doc-pub-host] [29811] 0 # = STOP MAIN = futu-py-conffi 

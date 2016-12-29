@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "futu-py-conffi-154008",
+  "private_key_id": "0fc124bba318d0db778ae145d8a66b760599a7a6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGrcsU4S5OeiNE\nNOeL414fzUpgdGTTYxH+e0Te6HnKmnsPyAlkY6sP0IUH14Lzq9ryV9vzU+gb6/MK\nmkEnVkFIK0FAB9HqLR4GSvkpKzpJspwc9GUejSxpP/Jfr0n79J2mkCkoKLShIzBC\nkALtOXYOTOfigFmx1dAhSSyJR79vf8/QBp+xdendaBqvcIeLiiA6yikt3VexQ2sk\ngP+Jh43K8axmf6vwA8FAB1Fs+Fg2D34Cxxmy/bSDPrmNpQwJMXe4cHrHGkxezSpw\nRJtG9Tf+bEUYgL++ezqIFXeJWBGgGnrM3hP5R1hO2JVL5tuk9G4ULpRc1A486I8j\nC6uHnT2rAgMBAAECggEAHKnQJbgDBUFruxhi23S3DKGCfH3uWezuGKfSHNKvV4KI\nBJPYfwo+EK8FskbuVpdRpCr2yZkuYHDfBIWSpskz6+SJqmI2b7GIpmHEpqLc6usA\nyNCdkhXN9XVLU3CnnNkCsZgUx/1vadv4x3GdanoixRdlUPExf42YVGUJLtkSDlTC\nC6VS7kBUNykqCCvsXkSiNFKbn+nOaZIU33GfexLFxUYY1c1yI28HMULS+9JHbSjq\ngihr63ABHd3890aioBXl31KaV9MPfR7DWjRrhb3J0vrrsi8NqhhaJNNMV6T92H8u\nxfOXensxIRB+779u4fqRbsgZocndzTZV3Agdjg+9yQKBgQDuNBdRRkbCjKu0QDZf\nD1MKOwgPgDNSx/fYDnhM0SwDPESrwdUPo2PvU+EbGqCd/K5686VfVOnonwNLOd69\n4aVyIgaEgn1njcwklYgmd76EVwLmpy5N7wV1N/ItFmoBRQjka510YI1+6TyejSUv\n4as5TAQpG1/rXJMLaGaPHfRjhQKBgQDVhb/2aEey0qJt7OLn55jX3JeQ4NNM+fXe\nQsbMUJjRTf7nP798yVtv5qAZmqCiqA4IvjRhiUPXNm5Pgg7DJ+KAo+lqffmle02G\nmZJAtikKVEvdgXdFgrovM3Pq36En5fdDOh5HpyqMafqDC17a3P7fWU29z/Bsp74G\nRx0s7I/rbwKBgFtwt7rFZYhtg8RwGe8n7NKykoeQySLwDJ5t/5RNf73GNv5QLEAS\nktxesL083YeIZlpgiY0tBZX85MDN+EmgA2jq0uGvTgCgmEs688cAlKws0rpEVywn\no0q6LUdNoWfXXnCBNzJjli2vz0t2F15oHNij67zz+0BYi0IH08cA0r4ZAoGBANC+\nL0rv65hQ/+bDfZkF+5Cc4bgLc8d/XvTpB3zbFmsY+yiMU+Hk4HVnXAFr/7rE3OOD\nP6ZTEXWmivVDyrbTmUX1+M3ZVmSHROVf4XFOJJUqj/h/B2F3Shm3DY4DDoP4+GBK\nwyt9q8UWHohaZ2NERg+IOM5mKT+wRb/Rah5vLswVAoGAQTYdEc5wWcGN7V5gcmoY\nuEdu0dCdYqG7XYHCSQMDbqiC6fW8SmVAFjdAFI7hU8ZmIP6YLjATJOvovBB5IloU\nbf8Oq1EoCM6v678+M+5QPekbJ78GoKjhIFwsiAAbnwxr0K+tMU+qJXH/yPP08sht\nKiK7kaJTAFLF69cd9O6NNd4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "futu-py-conffi-srvce-accnt-pro@futu-py-conffi-154008.iam.gserviceaccount.com",
+  "client_id": "108452951494963018236",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/futu-py-conffi-srvce-accnt-pro%40futu-py-conffi-154008.iam.gserviceaccount.com"
+}

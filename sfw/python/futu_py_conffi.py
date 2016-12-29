@@ -30,7 +30,6 @@ def main():
     objGoogleSheetToYAML = GoogleSheetToYAML()
     ret = objGoogleSheetToYAML.main( objConfigurator )
 
-    product_name =  appConfig [ 'ProductName' ]
 
     objLogger.info ( "STOP  ::: " + product_name )
     exit ( ret )

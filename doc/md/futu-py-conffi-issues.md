@@ -40,27 +40,42 @@ Install the python3 binary as follows:
 Install the python package manager:
 The example is for Ubuntu - use the package manager of your OS by choice. 
 
-    sudo apt-get install python-pip
-    pip install --upgrade pip
+    sudo apt-get install python3-pip
     
+    # and upgrade to the latest version
+    sudo pip3 install --upgrade pip
+    
+    # verfify the correct version
+    pip3 -V
+    # output:
+    # pip 9.0.1 from /usr/local/lib/python3.5/dist-packages (python 3.5)
 
 #### 1.1.3. Install the Google oauth2client
 Install the Google oauth2client ( https://github.com/google/oauth2client ) as follows:
 
-    pip install --upgrade oauth2client
+    sudo pip3 install --upgrade oauth2client
+    
+    # and verify ( those are 2 lines )
+    python3 -c 'import oauth2client
+    print ( oauth2client.__version__ )'
+    
+    # output:
+    # 4.0.0
 
-#### 1.1.4. Install the gspread
+#### 1.1.4. Install the PyOpenSSL
+Install the Google oauth2client ( https://github.com/google/oauth2client ) as follows:
+
+    sudo pip3 install PyOpenSSL
+
+#### 1.1.5. Install the gspread
 The Google Spreadsheets Python API is utilized and it must be imported via the pip manager. 
 Use the gspread module
 https://github.com/burnash/gspread
 
-    sudo pip install gspread
+    sudo pip3 install gspread
     
-    # output:
-      Downloading requests-2.12.4-py2.py3-none-any.whl (576kB)
-        100% |████████████████████████████████| 583kB 1.7MB/s
-    Installing collected packages: requests, gspread
-    Successfully installed gspread-0.6.2 requests-2.12.4
+    # output:… 
+    Successfully installed gspread-0.6.2
 
 ### 1.2. Fetch the source
 Fetch the source from git hub as follows:
@@ -70,13 +85,13 @@ Fetch the source from git hub as follows:
     cd /opt/futu/futu-pyconffi/
     git clone https://github.com/futurice/futu-py-conffi
     
-    mv -v /opt/futu/futu-py-conffi /opt/futu/futu-py-conffi.0.1.0.dev.$USER
+    mv -v /opt/futu/futu-py-conffi /opt/futu/futu-py-conffi.0.1.4.dev.$USER
 
 ### 1.3. Create you local conf file
 The default conf file provides only limited functionality ( this is by design ) , thus copy and configure the configuration file for your host
 
     # go to the product version dir
-    cd /opt/futu/futu-py-conffi.0.1.0.dev.$USER
+    cd /opt/futu/futu-py-conffi.0.1.4.dev.$USER
     
     mv -v sfw/bash/futu-pyconffi/futu-pyconffi.set-your-host.conf \ sfw/bash/futu-pyconffi/futu-pyconffi.`hostname -s`.conf
 
@@ -84,7 +99,7 @@ The default conf file provides only limited functionality ( this is by design ) 
 To run all the tests issue the following call
 
     # go to the product version dir
-    cd /opt/futu/futu-py-conffi.0.1.0.dev.$USER
+    cd /opt/futu/futu-py-conffi.0.1.4.dev.$USER
     
     bash sfw/bash/futu-py-conffi/test-futu-py-conffi.sh
 

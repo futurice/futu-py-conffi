@@ -1,5 +1,6 @@
 import utils.Initializer
 from utils.Configurator import Configurator
+from .io.GoogleSheetReader import GoogleSheetReader
 import logging 
 import sys    
 import os    
@@ -23,6 +24,20 @@ class GoogleSheetToYAML:
         objLogger.critical("critical message")
         
         objLogger.info ( "logging_conf_file: " + appConfig['LoggingConfFile'] )
+
+        product_name =  appConfig [ 'ProductName' ]
+
+        product_conf_dir = appConfig [ 'ProductInstDir' ] + os.sep + 'conf'
+        product_key_file = product_conf_dir + os.sep + 'futu-py-conffi-0fc124bba318.json'
+
+        url = 'https://docs.google.com/spreadsheets/d/1QaCz_ef9-7ipL2vtN-yN8PBtWNewPKA25bRDXuTs0d0/edit#gid=1801077022'
+        worksheet_name = "kiky-confs"
+
+        objGoogleSheetReader = GoogleSheetReader()
+        list_of_lists = objGoogleSheetReader.doRead( objConfigurator , url , worksheet_name )
+
+        print ( list_of_lists )
+        time.sleep ( 3 )
 
         return 0    
     #eof main
