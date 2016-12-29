@@ -1,0 +1,18 @@
+# docs/txt/futu-py-conffi/fail-run-python/fail-run-python.spec.txt
+
+	doSpecFailRunPython
+	
+	# Purpose:
+	# ------------------------------------------------------
+	to test all the fail ways of calling the python main entry point
+
+
+	# Usage:
+	# ------------------------------------------------------
+	add/uncomment the fail-run-python in the test list
+   sfw/bash/futu-py-conffi/tests/run-futu-py-conffi-tests.lst
+   bash sfw/bash/futu-py-conffi/test-futu-py-conffi.sh
+
+
+
+# eof file: docs/txt/futu-py-conffi/fail-run-python/fail-run-python.spec.txt

@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/run-python.func.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doRunPython comments ...
 # ---------------------------------------------------------
@@ -12,8 +12,10 @@ doRunPython(){
 	
 	test -z "$sleep_interval" || sleep "$sleep_interval"
 
+	doLog "DEBUG url : $url"
+	doLog "DEBUG worksheet: $worksheet"
 	# Action !!! with all warnings 
-	python3 -W all sfw/python/futu_py_conffi.py
+	python3 -W all sfw/python/futu_py_conffi.py --url $url --worksheet $worksheet
 	
 	doLog "DEBUG STOP  doRunPython"
 }

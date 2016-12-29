@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/run-python.help.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doHelpRunPython comments ...
 # ---------------------------------------------------------

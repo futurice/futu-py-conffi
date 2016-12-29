@@ -130,7 +130,7 @@ doInit(){
 doParseCmdArgs(){
 
    # traverse all the possible cmd args
-   while getopts ":a:c:i:h:" opt; do
+   while getopts ":a:c:i:h:u:w:" opt; do
      case $opt in
       a)
          actions="$actions$OPTARG "
@@ -143,6 +143,12 @@ doParseCmdArgs(){
          ;;
       h)
          doPrintHelp
+         ;;
+      u)
+         export url="$OPTARG "
+         ;;
+      w)
+         export worksheet="$OPTARG "
          ;;
       \?)
          doExit 2 "Invalid option: -$OPTARG"

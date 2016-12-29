@@ -1,0 +1,152 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Configurator	sfw/python/utils/Configurator.py	11;"	class	language:Python	inherits:
+GoogleSheetReader	sfw/python/ctrl/io/GoogleSheetReader.py	16;"	class	language:Python	inherits:
+GoogleSheetToYAML	sfw/python/ctrl/GoogleSheetToYAML.py	12;"	class	language:Python	inherits:
+__init__	sfw/python/utils/Configurator.py	18;"	member	language:Python	class:Configurator	access:public
+add_window	sfw/bash/futu-py-conffi/funcs/sys/tmux/tmux-common.func.sh	27;"	function	language:Sh
+add_window	sfw/bash/futu-py-conffi/specs/sys/tmux/tmux-common.spec.sh	27;"	function	language:Sh
+appConfig	sfw/python/utils/Configurator.py	14;"	variable	language:Python	class:Configurator
+doBackupFile	sfw/bash/futu-py-conffi/funcs/sys/backup-file.func.sh	9;"	function	language:Sh
+doChangeEnvType	sfw/bash/futu-py-conffi/funcs/change-env-type.func.sh	7;"	function	language:Sh
+doChangeVersion	sfw/bash/futu-py-conffi/funcs/dev/change-version.func.sh	6;"	function	language:Sh
+doCheckPythonSyntax	sfw/bash/futu-py-conffi/funcs/check-python-syntax.func.sh	8;"	function	language:Sh
+doCheckReadyToStart	sfw/bash/futu-py-conffi/futu-py-conffi.sh	192;"	function	language:Sh
+doCheckTmuxIsInstalled	sfw/bash/futu-py-conffi/funcs/sys/tmux/tmux-common.func.sh	38;"	function	language:Sh
+doCleanAfterRun	sfw/bash/futu-py-conffi/futu-py-conffi.sh	275;"	function	language:Sh
+doCleanAfterRun	sfw/bash/futu-py-conffi/test-futu-py-conffi.sh	173;"	function	language:Sh
+doCloneToApp	sfw/bash/futu-py-conffi/funcs/dev/clone-to-app.func.sh	8;"	function	language:Sh
+doCreateCtags	sfw/bash/futu-py-conffi/funcs/dev/create-ctags.func.sh	6;"	function	language:Sh
+doCreateDefaultConfFile	sfw/bash/futu-py-conffi/futu-py-conffi.sh	171;"	function	language:Sh
+doCreateFull7zPackage	sfw/bash/futu-py-conffi/funcs/pckg/create-full-7z-package.func.sh	7;"	function	language:Sh
+doCreateFullPackage	sfw/bash/futu-py-conffi/funcs/pckg/create-full-package.func.sh	7;"	function	language:Sh
+doCreateRelative7zPackage	sfw/bash/futu-py-conffi/funcs/pckg/create-relative-7z-package.func.sh	8;"	function	language:Sh
+doCreateRelativePackage	sfw/bash/futu-py-conffi/funcs/pckg/create-relative-package.func.sh	8;"	function	language:Sh
+doExit	sfw/bash/futu-py-conffi/futu-py-conffi.sh	212;"	function	language:Sh
+doExit	sfw/bash/futu-py-conffi/test-futu-py-conffi.sh	110;"	function	language:Sh
+doGenerateActionFiles	sfw/bash/futu-py-conffi/funcs/dev/generate-action-files.func.sh	6;"	function	language:Sh
+doGenerateSQL	sfw/bash/futu-py-conffi/funcs/generate-sql.func.sh	9;"	function	language:Sh
+doGmailPackage	sfw/bash/futu-py-conffi/funcs/pckg/gmail-package.func.sh	5;"	function	language:Sh
+doHelpChangeEnvType	sfw/bash/futu-py-conffi/helps/change-env-type.help.sh	7;"	function	language:Sh
+doHelpChangeVersion	sfw/bash/futu-py-conffi/helps/change-version.help.sh	7;"	function	language:Sh
+doHelpCheckPythonSyntax	sfw/bash/futu-py-conffi/helps/check-python-syntax.help.sh	7;"	function	language:Sh
+doHelpCreateCtags	sfw/bash/futu-py-conffi/helps/create-ctags.help.sh	7;"	function	language:Sh
+doHelpCreateFull7zPackage	sfw/bash/futu-py-conffi/helps/pckg/create-full-7z-package.help.sh	7;"	function	language:Sh
+doHelpCreateFullPackage	sfw/bash/futu-py-conffi/helps/pckg/create-full-package.help.sh	7;"	function	language:Sh
+doHelpCreateRelative7zPackage	sfw/bash/futu-py-conffi/helps/pckg/create-relative-7z-package.help.sh	7;"	function	language:Sh
+doHelpCreateRelativePackage	sfw/bash/futu-py-conffi/helps/pckg/create-relative-package.help.sh	7;"	function	language:Sh
+doHelpGenerateActionFiles	sfw/bash/futu-py-conffi/helps/generate-action-files.help.sh	7;"	function	language:Sh
+doHelpGenerateSQL	sfw/bash/futu-py-conffi/helps/generate-sql.help.sh	7;"	function	language:Sh
+doHelpGmailPackage	sfw/bash/futu-py-conffi/helps/gmail-package.help.sh	7;"	function	language:Sh
+doHelpMorphDir	sfw/bash/futu-py-conffi/helps/morph-dir.help.sh	7;"	function	language:Sh
+doHelpPrintHelp	sfw/bash/futu-py-conffi/helps/print-help.help.sh	7;"	function	language:Sh
+doHelpPrintUsage	sfw/bash/futu-py-conffi/helps/print-usage.help.sh	7;"	function	language:Sh
+doHelpRemoveActionFiles	sfw/bash/futu-py-conffi/helps/remove-action-files.help.sh	7;"	function	language:Sh
+doHelpRemovePackage	sfw/bash/futu-py-conffi/helps/remove-package.help.sh	7;"	function	language:Sh
+doHelpRestoreTmuxSession	sfw/bash/futu-py-conffi/helps/restore-tmux-session.help.sh	7;"	function	language:Sh
+doHelpRunPython	sfw/bash/futu-py-conffi/helps/run-python.help.sh	7;"	function	language:Sh
+doHelpTmuxCommon	sfw/bash/futu-py-conffi/helps/tmux-common.help.sh	7;"	function	language:Sh
+doInit	sfw/bash/futu-py-conffi/futu-py-conffi.sh	111;"	function	language:Sh
+doInit	sfw/bash/futu-py-conffi/test-futu-py-conffi.sh	92;"	function	language:Sh
+doInitGlobals	sfw/python/utils/Configurator.py	26;"	member	language:Python	class:Configurator	access:public
+doInitLogger	sfw/python/utils/Configurator.py	51;"	member	language:Python	class:Configurator	access:public
+doLog	sfw/bash/futu-py-conffi/futu-py-conffi.sh	252;"	function	language:Sh
+doLog	sfw/bash/futu-py-conffi/test-futu-py-conffi.sh	150;"	function	language:Sh
+doMorphDir	sfw/bash/futu-py-conffi/funcs/dev/morph-dir.func.sh	14;"	function	language:Sh
+doParse	sfw/python/utils/CmdArgsParser.py	5;"	function	language:Python	access:public
+doParseCmdArgs	sfw/bash/futu-py-conffi/futu-py-conffi.sh	130;"	function	language:Sh
+doParseConfFile	sfw/bash/futu-py-conffi/futu-py-conffi.sh	385;"	function	language:Sh
+doParseConfFile	sfw/bash/futu-py-conffi/test-futu-py-conffi.sh	290;"	function	language:Sh
+doPrintHelp	sfw/bash/futu-py-conffi/funcs/man/print-help.func.sh	5;"	function	language:Sh
+doPrintUsage	sfw/bash/futu-py-conffi/funcs/man/print-usage.func.sh	5;"	function	language:Sh
+doRead	sfw/python/ctrl/io/GoogleSheetReader.py	18;"	member	language:Python	class:GoogleSheetReader	access:public
+doRemoveActionFiles	sfw/bash/futu-py-conffi/funcs/remove-action-files.func.sh	11;"	function	language:Sh
+doRemovePackage	sfw/bash/futu-py-conffi/funcs/pckg/remove-package.func.sh	8;"	function	language:Sh
+doRemovePackage	sfw/bash/futu-py-conffi/funcs/remove-package.func.sh	7;"	function	language:Sh
+doResolveProductInstanceDir	sfw/python/utils/Initializer.py	28;"	function	language:Python	access:public
+doResolveProductName	sfw/python/utils/Initializer.py	8;"	function	language:Python	access:public
+doResolveScriptFile	sfw/python/utils/Initializer.py	18;"	function	language:Python	access:public
+doResolveTheConfigFile	sfw/python/utils/Initializer.py	45;"	function	language:Python	access:public
+doRestoreTmuxSession	sfw/bash/futu-py-conffi/funcs/sys/tmux/restore-tmux-session.func.sh	11;"	function	language:Sh
+doRunActions	sfw/bash/futu-py-conffi/futu-py-conffi.sh	69;"	function	language:Sh
+doRunCmdAndLog	sfw/bash/futu-py-conffi/futu-py-conffi.sh	289;"	function	language:Sh
+doRunCmdAndLog	sfw/bash/futu-py-conffi/test-futu-py-conffi.sh	187;"	function	language:Sh
+doRunCmdOrExit	sfw/bash/futu-py-conffi/futu-py-conffi.sh	312;"	function	language:Sh
+doRunCmdOrExit	sfw/bash/futu-py-conffi/test-futu-py-conffi.sh	210;"	function	language:Sh
+doRunPython	sfw/bash/futu-py-conffi/funcs/run-python.func.sh	7;"	function	language:Sh
+doRunTests	sfw/bash/futu-py-conffi/test-futu-py-conffi.sh	52;"	function	language:Sh
+doSaveTmuxSession	sfw/bash/futu-py-conffi/funcs/save-tmux-session.func.sh	7;"	function	language:Sh
+doSaveTmuxSession	sfw/bash/futu-py-conffi/funcs/sys/tmux/save-tmux-session.func.sh	7;"	function	language:Sh
+doSaveTmuxSession	sfw/bash/futu-py-conffi/funcs/sys/tmux/tmux-common.func.sh	12;"	function	language:Sh
+doSetVars	sfw/bash/futu-py-conffi/futu-py-conffi.sh	332;"	function	language:Sh
+doSetVars	sfw/bash/futu-py-conffi/test-futu-py-conffi.sh	230;"	function	language:Sh
+doSpecBackupFile	sfw/bash/futu-py-conffi/specs/sys/backup-file.spec.sh	9;"	function	language:Sh
+doSpecChangeEnvType	sfw/bash/futu-py-conffi/specs/change-env-type.spec.sh	7;"	function	language:Sh
+doSpecChangeVersion	sfw/bash/futu-py-conffi/specs/change-version.spec.sh	7;"	function	language:Sh
+doSpecCheckPythonSyntax	sfw/bash/futu-py-conffi/specs/check-python-syntax.spec.sh	7;"	function	language:Sh
+doSpecCheckTmuxIsInstalled	sfw/bash/futu-py-conffi/specs/sys/tmux/tmux-common.spec.sh	38;"	function	language:Sh
+doSpecCreateCtags	sfw/bash/futu-py-conffi/specs/create-ctags.spec.sh	7;"	function	language:Sh
+doSpecCreateFull7zPackage	sfw/bash/futu-py-conffi/specs/pckg/create-full-7z-package.spec.sh	7;"	function	language:Sh
+doSpecCreateFullPackage	sfw/bash/futu-py-conffi/specs/pckg/create-full-package.spec.sh	7;"	function	language:Sh
+doSpecCreateRelative7zPackage	sfw/bash/futu-py-conffi/specs/pckg/create-relative-7z-package.spec.sh	7;"	function	language:Sh
+doSpecCreateRelativePackage	sfw/bash/futu-py-conffi/specs/pckg/create-relative-package.spec.sh	7;"	function	language:Sh
+doSpecGenerateActionFiles	sfw/bash/futu-py-conffi/specs/generate-action-files.spec.sh	7;"	function	language:Sh
+doSpecGenerateSQL	sfw/bash/futu-py-conffi/specs/generate-sql.spec.sh	7;"	function	language:Sh
+doSpecGmailPackage	sfw/bash/futu-py-conffi/specs/gmail-package.spec.sh	7;"	function	language:Sh
+doSpecGmailPackage	sfw/bash/futu-py-conffi/specs/pckg/gmail-package.spec.sh	5;"	function	language:Sh
+doSpecMorphDir	sfw/bash/futu-py-conffi/specs/dev/morph-dir.spec.sh	11;"	function	language:Sh
+doSpecMorphDir	sfw/bash/futu-py-conffi/specs/morph-dir.spec.sh	7;"	function	language:Sh
+doSpecPrintHelp	sfw/bash/futu-py-conffi/specs/print-help.spec.sh	7;"	function	language:Sh
+doSpecPrintUsage	sfw/bash/futu-py-conffi/specs/print-usage.spec.sh	7;"	function	language:Sh
+doSpecRemoveActionFiles	sfw/bash/futu-py-conffi/specs/remove-action-files.spec.sh	7;"	function	language:Sh
+doSpecRemovePackage	sfw/bash/futu-py-conffi/specs/pckg/remove-package.spec.sh	8;"	function	language:Sh
+doSpecRemovePackage	sfw/bash/futu-py-conffi/specs/remove-package.spec.sh	7;"	function	language:Sh
+doSpecRestoreTmuxSession	sfw/bash/futu-py-conffi/specs/sys/tmux/restore-tmux-session.spec.sh	7;"	function	language:Sh
+doSpecRunPython	sfw/bash/futu-py-conffi/specs/run-python.spec.sh	7;"	function	language:Sh
+doSpecSaveTmuxSession	sfw/bash/futu-py-conffi/specs/save-tmux-session.spec.sh	7;"	function	language:Sh
+doSpecSaveTmuxSession	sfw/bash/futu-py-conffi/specs/sys/tmux/save-tmux-session.spec.sh	7;"	function	language:Sh
+doSpecSaveTmuxSession	sfw/bash/futu-py-conffi/specs/sys/tmux/tmux-common.spec.sh	12;"	function	language:Sh
+doSpecTmuxCommon	sfw/bash/futu-py-conffi/specs/sys/tmux-common.spec.sh	7;"	function	language:Sh
+doTestBackupFile	sfw/bash/futu-py-conffi/tests/sys/backup-file.test.sh	7;"	function	language:Sh
+doTestChangeEnvType	sfw/bash/futu-py-conffi/tests/change-env-type.test.sh	7;"	function	language:Sh
+doTestChangeVersion	sfw/bash/futu-py-conffi/tests/change-version.test.sh	7;"	function	language:Sh
+doTestCheckPythonSyntax	sfw/bash/futu-py-conffi/tests/check-python-syntax.test.sh	7;"	function	language:Sh
+doTestCreateFull7zPackage	sfw/bash/futu-py-conffi/tests/pckg/create-full-7z-package.test.sh	7;"	function	language:Sh
+doTestCreateFullPackage	sfw/bash/futu-py-conffi/tests/pckg/create-full-package.test.sh	7;"	function	language:Sh
+doTestCreateRelative7zPackage	sfw/bash/futu-py-conffi/tests/pckg/create-relative-7z-package.test.sh	7;"	function	language:Sh
+doTestCreateRelativePackage	sfw/bash/futu-py-conffi/tests/pckg/create-relative-package.test.sh	8;"	function	language:Sh
+doTestGenerateActionFiles	sfw/bash/futu-py-conffi/tests/generate-action-files.test.sh	7;"	function	language:Sh
+doTestGenerateSQL	sfw/bash/futu-py-conffi/tests/generate-sql.test.sh	7;"	function	language:Sh
+doTestGmailPackage	sfw/bash/futu-py-conffi/tests/gmail-package.test.sh	7;"	function	language:Sh
+doTestMorphDir	sfw/bash/futu-py-conffi/tests/dev/morph-dir.test.sh	6;"	function	language:Sh
+doTestMorphDir	sfw/bash/futu-py-conffi/tests/morph-dir.test.sh	7;"	function	language:Sh
+doTestPrintHelp	sfw/bash/futu-py-conffi/tests/print-help.test.sh	7;"	function	language:Sh
+doTestPrintUsage	sfw/bash/futu-py-conffi/tests/print-usage.test.sh	7;"	function	language:Sh
+doTestRemoveActionFiles	sfw/bash/futu-py-conffi/tests/remove-action-files.test.sh	10;"	function	language:Sh
+doTestRemovePackage	sfw/bash/futu-py-conffi/tests/pckg/remove-package.test.sh	8;"	function	language:Sh
+doTestRemovePackage	sfw/bash/futu-py-conffi/tests/remove-package.test.sh	7;"	function	language:Sh
+doTestRestoreTmuxSession	sfw/bash/futu-py-conffi/tests/sys/tmux/restore-tmux-session.test.sh	7;"	function	language:Sh
+doTestRunPython	sfw/bash/futu-py-conffi/tests/run-python.test.sh	7;"	function	language:Sh
+doTestSaveTmuxSession	sfw/bash/futu-py-conffi/tests/save-tmux-session.test.sh	7;"	function	language:Sh
+doTestSaveTmuxSession	sfw/bash/futu-py-conffi/tests/sys/tmux/save-tmux-session.test.sh	7;"	function	language:Sh
+doTestTmuxCommon	sfw/bash/futu-py-conffi/tests/tmux-common.test.sh	7;"	function	language:Sh
+dump_tmux_session	sfw/bash/futu-py-conffi/funcs/sys/tmux/tmux-common.func.sh	6;"	function	language:Sh
+dump_tmux_session	sfw/bash/futu-py-conffi/specs/sys/tmux/tmux-common.spec.sh	6;"	function	language:Sh
+getAppConfig	sfw/python/utils/Configurator.py	37;"	member	language:Python	class:Configurator	access:public
+get_function_list	sfw/bash/futu-py-conffi/futu-py-conffi.sh	49;"	function	language:Sh
+get_function_list	sfw/bash/futu-py-conffi/test-futu-py-conffi.sh	32;"	function	language:Sh
+main	sfw/bash/futu-py-conffi/futu-py-conffi.sh	18;"	function	language:Sh
+main	sfw/bash/futu-py-conffi/test-futu-py-conffi.sh	18;"	function	language:Sh
+main	sfw/python/ctrl/GoogleSheetToYAML.py	14;"	member	language:Python	class:GoogleSheetToYAML	access:public
+main	sfw/python/futu_py_conffi.py	17;"	function	language:Python	access:public
+new_tmux_session	sfw/bash/futu-py-conffi/funcs/sys/tmux/tmux-common.func.sh	32;"	function	language:Sh
+new_tmux_session	sfw/bash/futu-py-conffi/specs/sys/tmux/tmux-common.spec.sh	32;"	function	language:Sh
+session_exists	sfw/bash/futu-py-conffi/funcs/sys/tmux/tmux-common.func.sh	22;"	function	language:Sh
+session_exists	sfw/bash/futu-py-conffi/specs/sys/tmux/tmux-common.spec.sh	22;"	function	language:Sh
+setAppConfig	sfw/python/utils/Configurator.py	44;"	member	language:Python	class:Configurator	access:public
+terminal_size	sfw/bash/futu-py-conffi/funcs/sys/tmux/tmux-common.func.sh	18;"	function	language:Sh
+terminal_size	sfw/bash/futu-py-conffi/specs/sys/tmux/tmux-common.spec.sh	18;"	function	language:Sh

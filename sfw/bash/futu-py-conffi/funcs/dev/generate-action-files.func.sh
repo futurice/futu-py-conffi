@@ -1,4 +1,4 @@
-# v1.0.9
+# 
 #------------------------------------------------------------------------------
 # scan all the "defined" actions and generate the 
 # spec , func , test , doc files if the do not exist 

@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/create-relative-7z-package.help.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doHelpCreateRelative7zPackage comments ...
 # ---------------------------------------------------------

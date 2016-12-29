@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/change-env-type.help.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doHelpChangeEnvType comments ...
 # ---------------------------------------------------------

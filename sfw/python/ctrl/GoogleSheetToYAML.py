@@ -11,7 +11,7 @@ import logging.config
 # the Google Spread Sheet , mangling the result set and writing the conf files
 class GoogleSheetToYAML:
 
-    def main( self , objConfigurator ):
+    def main( self , objConfigurator , url , worksheet ):
 
         objLogger = objConfigurator.doInitLogger()
         objLogger.disabled = 0
@@ -28,13 +28,12 @@ class GoogleSheetToYAML:
         product_name =  appConfig [ 'ProductName' ]
 
         product_conf_dir = appConfig [ 'ProductInstDir' ] + os.sep + 'conf'
+
+        # todo: parametrize into conf file 
         product_key_file = product_conf_dir + os.sep + 'futu-py-conffi-0fc124bba318.json'
 
-        url = 'https://docs.google.com/spreadsheets/d/1QaCz_ef9-7ipL2vtN-yN8PBtWNewPKA25bRDXuTs0d0/edit#gid=1801077022'
-        worksheet_name = "kiky-confs"
-
         objGoogleSheetReader = GoogleSheetReader()
-        list_of_lists = objGoogleSheetReader.doRead( objConfigurator , url , worksheet_name )
+        list_of_lists = objGoogleSheetReader.doRead( objConfigurator , url , worksheet )
 
         print ( list_of_lists )
         time.sleep ( 3 )

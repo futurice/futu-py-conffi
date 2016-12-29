@@ -15,7 +15,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 # src: http://gspread.readthedocs.io/en/latest/oauth2.html
 class GoogleSheetReader:
 
-    def doRead ( self , objConfigurator , url , worksheet_name ):
+    def doRead ( self , objConfigurator , url , worksheet ):
 
         objLogger = objConfigurator.doInitLogger()
         objLogger.disabled = 0
@@ -31,13 +31,19 @@ class GoogleSheetReader:
         credentials = ServiceAccountCredentials.from_json_keyfile_name(product_key_file, scope)
 
         gc = gspread.authorize(credentials)
+        print ( "url: " + url)
+        print ( "worksheet: " + worksheet )
+        import time
+        time.sleep ( 3 )
 
-        # wks = gc.open("Tarvittavat pääsyt 2014").sheet2
         sht2 = gc.open_by_url( url ) 
-        
-        worksheet = sht2.worksheet( worksheet_name )
 
-        list_of_lists = worksheet.get_all_values()
+        print ( sht2 )
+    
+        objWorksheet = sht2.worksheet( worksheet )
+
+
+        list_of_lists = objWorksheet.get_all_values()
 
         # debug print ( list_of_lists )
         # debug time.sleep ( 3 )

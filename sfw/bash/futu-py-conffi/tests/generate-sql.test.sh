@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/generate-sql.test.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doTestGenerateSQL comments ...
 # ---------------------------------------------------------

@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/change-env-type.spec.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doSpecChangeEnvType comments ...
 # ---------------------------------------------------------

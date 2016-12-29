@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/save-tmux-session.spec.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doSpecSaveTmuxSession comments ...
 # ---------------------------------------------------------

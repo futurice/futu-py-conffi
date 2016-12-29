@@ -9,8 +9,14 @@
 
 	# Usage:
 	# ------------------------------------------------------
-	bash sfw/bash/futu-py-conffi/futu-py-conffi.sh -a run-python
+	bash sfw/bash/futu-py-conffi/futu-py-conffi.sh -a run-python -u <<url>> -w <<worksheet>>
 	
+	# Caveats:
+	# ------------------------------------------------------
+   Avoid double quoting in bash ... since it will change your urls !!!
+   Use single quotes instead !!!
+	export url='<<paste-url-from-browser>>'
+	export worksheet='<<paste-worksheet-name-from-browser>>'
 
 
 # eof file: docs/txt/futu-py-conffi/run-python/run-python.func.txt

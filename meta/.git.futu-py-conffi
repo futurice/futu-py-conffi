@@ -1,6 +1,7 @@
 # perl_ignore_file_pattern=.*\.swp$|.*\.log|$.*\.swo$
 sfw/python
 sfw/python/futu_py_conffi.py
+sfw/python/utils/CmdArgsParser.py
 sfw/python/ctrl/GoogleSheetToYAML.py
 sfw/python/ctrl/io/GoogleSheetReader.py
 sfw/python/ctrl/io/__init__.py
@@ -41,6 +42,16 @@ sfw/bash/futu-py-conffi/specs/check-python-syntax.spec.sh
 sfw/bash/futu-py-conffi/helps/check-python-syntax.help.sh
 sfw/bash/futu-py-conffi/funcs/check-python-syntax.func.sh
 sfw/bash/futu-py-conffi/tests/check-python-syntax.test.sh
+1
+docs/txt/futu-py-conffi/funcs/fail-run-python.func.txt
+docs/txt/futu-py-conffi/helps/fail-run-python.help.txt
+docs/txt/futu-py-conffi/specs/fail-run-python.spec.txt
+docs/txt/futu-py-conffi/tests/fail-run-python.test.txt
+1
+sfw/bash/futu-py-conffi/funcs/fail-run-python.func.sh
+sfw/bash/futu-py-conffi/helps/fail-run-python.help.sh
+sfw/bash/futu-py-conffi/specs/fail-run-python.spec.sh
+sfw/bash/futu-py-conffi/tests/fail-run-python.test.sh
 1
 README.md
 doc/md

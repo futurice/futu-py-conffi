@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/generate-action-files.spec.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doSpecGenerateActionFiles comments ...
 # ---------------------------------------------------------

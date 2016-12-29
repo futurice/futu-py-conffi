@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/remove-package.func.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doRemovePackage comments ...
 # ---------------------------------------------------------

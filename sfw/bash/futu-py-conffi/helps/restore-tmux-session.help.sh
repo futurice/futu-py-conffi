@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/restore-tmux-session.help.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doHelpRestoreTmuxSession comments ...
 # ---------------------------------------------------------

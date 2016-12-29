@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/generate-sql.help.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doHelpGenerateSQL comments ...
 # ---------------------------------------------------------

@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/gmail-package.spec.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doSpecGmailPackage comments ...
 # ---------------------------------------------------------

@@ -1,6 +1,6 @@
 # sfw/bash/futu-py-conffi/funcs/check-python-syntax.spec.sh
 
-# v1.0.9
+# 
 # ---------------------------------------------------------
 # todo: add doSpecCheckPythonSyntax comments ...
 # ---------------------------------------------------------

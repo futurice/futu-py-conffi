@@ -1,0 +1,37 @@
+# docs/txt/futu-py-conffi/fail-run-python/fail-run-python.func.txt
+
+	doFailRunPython
+	
+	# Purpose:
+	# ------------------------------------------------------
+	-- todo: what is the purpose of the doFailRunPython function
+
+	# Prequisites
+	# ------------------------------------------------------
+	-- todo: what are the prerequisites of the doFailRunPython function
+
+	# Installation
+	# ------------------------------------------------------
+	-- todo: what are the required installations for the  
+		doFailRunPython function to execute without errors
+
+	# Interdependancies
+	# ------------------------------------------------------
+	-- todo: what are the interdependancies for the  
+		doFailRunPython function to execute without errors
+
+	# Usage:
+	# ------------------------------------------------------
+	-- todo: how can be the doFailRunPython used 
+
+	# Developent
+	# ------------------------------------------------------
+	-- todo: what issues, todos could be pointed for development
+
+	# Caveats:
+	# ------------------------------------------------------
+	-- todo: what are the known caveats of the doFailRunPython functions
+
+
+
+# eof file: docs/txt/futu-py-conffi/fail-run-python/fail-run-python.func.txt
