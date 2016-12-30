@@ -6,7 +6,7 @@
 ## 1. What is it ?!
 A python based tool for easier configuration management handling
 
-![The following diagram depics the software stack of the isg-pub application](https://github.com/futurice/futu-py-conffi/blob/develop/doc/img/futu-pyconffi-arch.jpg)    
+![The following diagram depics the software stack of the isg-pub application](https://github.com/futurice/futu-py-conffi/blob/master/doc/img/futu-pyconffi-arch.jpg)    
 
 ## 2. INSTALLATION AND CONFIGURATION
 
