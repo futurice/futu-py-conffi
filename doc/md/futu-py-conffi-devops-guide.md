@@ -138,11 +138,11 @@ https://github.com/burnash/gspread
 
 ### 3.4. sfw/python/futu_py_conffi.py
 This is the main entry of the python code … 
-Kicks up the confgurator and the GoogleSheetToCSV controller obj
+Kicks up the confgurator and the GoogleSheetToYAML controller obj
 
     
 
-### 3.5. sfw/python/ctrl/GoogleSheetToCSV.py
+### 3.5. sfw/python/ctrl/GoogleSheetToYAML.py
 Implements the control flow for reading the Google SpreadSheet data , data transfromations and writing to yaml configuration files
 
     
